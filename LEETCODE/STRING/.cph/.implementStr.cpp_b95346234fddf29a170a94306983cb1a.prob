@@ -1,0 +1,1 @@
+{"name":"Local: implementStr","url":"d:\\LEETCODE\\STRING\\implementStr.cpp","tests":[{"id":1645661298080,"input":"hello\nll","output":""},{"id":1645662463120,"input":"a\na\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\STRING\\implementStr.cpp","group":"local","local":true}

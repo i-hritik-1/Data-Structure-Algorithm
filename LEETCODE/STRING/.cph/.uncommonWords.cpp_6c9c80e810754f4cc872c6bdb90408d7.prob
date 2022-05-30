@@ -1,0 +1,1 @@
+{"name":"Local: uncommonWords","url":"d:\\LEETCODE\\STRING\\uncommonWords.cpp","tests":[{"id":1645146557715,"input":"this apple is sweet\nthis apple is sour","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\STRING\\uncommonWords.cpp","group":"local","local":true}

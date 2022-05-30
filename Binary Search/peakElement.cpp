@@ -1,0 +1,41 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    int peakIndexInMountainArray(vector<int>& arr) {
+        int start = 0, end = arr.size();
+        int mid = start + (end - start)/2;
+        while(start < end){
+            if(arr[mid] < arr[mid + 1]){
+                start = mid + 1;
+            }
+            else{
+                end =  mid;
+            }
+
+            mid = start + (end - start)/2;
+        }
+        return mid;
+    }
+};
+
+
+
+
+int main()
+{
+    int n;
+    cin>>n;
+    vector<int> nums(n);
+    for(int i=0; i<n; i++){
+        cin>>nums[i];
+    }
+    int target;
+    cin>>target;
+    Solution obj;
+
+    cout<<obj.peakIndexInMountainArray(nums)<<endl;
+    
+    return 0;
+}

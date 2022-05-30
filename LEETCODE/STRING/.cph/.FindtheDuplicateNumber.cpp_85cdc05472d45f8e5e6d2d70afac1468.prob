@@ -1,0 +1,1 @@
+{"name":"Local: FindtheDuplicateNumber","url":"d:\\LEETCODE\\STRING\\FindtheDuplicateNumber.cpp","tests":[{"id":1644337788119,"input":"5\n1 3 2 3 4","output":"3"},{"id":1644337978253,"input":"3\n3 1 1","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\STRING\\FindtheDuplicateNumber.cpp","group":"local","local":true}
