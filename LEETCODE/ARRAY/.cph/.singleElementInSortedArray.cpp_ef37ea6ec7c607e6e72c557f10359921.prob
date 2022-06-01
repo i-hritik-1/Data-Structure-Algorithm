@@ -1,1 +1,0 @@
-{"name":"Local: singleElementInSortedArray","url":"d:\\LEETCODE\\ARRAY\\singleElementInSortedArray.cpp","tests":[{"id":1644192194915,"input":"6\n1 1 2 2 3 4 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\ARRAY\\singleElementInSortedArray.cpp","group":"local","local":true}

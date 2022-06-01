@@ -1,1 +1,0 @@
-{"name":"Local: nextPermutation","url":"d:\\LEETCODE\\ARRAY\\nextPermutation.cpp","tests":[{"id":1644885385552,"input":"3\n1 2 3","output":"1 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\ARRAY\\nextPermutation.cpp","group":"local","local":true}
