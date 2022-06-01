@@ -1,1 +1,0 @@
-{"name":"Local: replaceEleWthGreatRightEle","url":"d:\\LEETCODE\\ARRAY\\replaceEleWthGreatRightEle.cpp","tests":[{"id":1645310972858,"input":"6\n17 18 5 4 6 1","output":""},{"id":1645311297537,"input":"1\n400","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\ARRAY\\replaceEleWthGreatRightEle.cpp","group":"local","local":true}

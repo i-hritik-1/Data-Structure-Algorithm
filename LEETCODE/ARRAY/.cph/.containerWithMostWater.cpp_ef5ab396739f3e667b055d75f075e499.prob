@@ -1,1 +1,0 @@
-{"name":"Local: containerWithMostWater","url":"d:\\LEETCODE\\ARRAY\\containerWithMostWater.cpp","tests":[{"id":1643434887354,"input":"9\n1 8 6 2 5 4 8 3 7","output":"49"},{"id":1643434973161,"input":"2\n1 1","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\ARRAY\\containerWithMostWater.cpp","group":"local","local":true}

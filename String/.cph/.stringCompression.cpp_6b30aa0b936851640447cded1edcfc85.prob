@@ -1,1 +1,0 @@
-{"name":"Local: stringCompression","url":"e:\\DATA STRUCTURE AND ALGORITHM\\String\\stringCompression.cpp","tests":[{"id":1651522267599,"input":"7\na a b b c c c","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DATA STRUCTURE AND ALGORITHM\\String\\stringCompression.cpp","group":"local","local":true}

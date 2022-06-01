@@ -1,1 +1,0 @@
-{"name":"Local: remove_element","url":"d:\\LEETCODE\\ARRAY\\remove_element.cpp","tests":[{"id":1644881160010,"input":"4\n3 2 2 3\n3","output":""},{"id":1644881679044,"input":"8\n0 1 2 2 3 0 4 2\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\ARRAY\\remove_element.cpp","group":"local","local":true}
