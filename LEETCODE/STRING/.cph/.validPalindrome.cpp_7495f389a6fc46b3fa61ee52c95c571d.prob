@@ -1,1 +1,0 @@
-{"name":"Local: validPalindrome","url":"d:\\LEETCODE\\STRING\\validPalindrome.cpp","tests":[{"id":1644281897925,"input":"Aman9,","output":""},{"id":1644284200577,"input":"ama","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\STRING\\validPalindrome.cpp","group":"local","local":true}

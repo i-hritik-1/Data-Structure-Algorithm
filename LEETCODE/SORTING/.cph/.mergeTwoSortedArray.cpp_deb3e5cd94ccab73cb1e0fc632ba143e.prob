@@ -1,1 +1,0 @@
-{"name":"Local: mergeTwoSortedArray","url":"d:\\LEETCODE\\SORTING\\mergeTwoSortedArray.cpp","tests":[{"id":1645051890996,"input":"5 5\n1 2 3 4 5\n6 7 8 9 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LEETCODE\\SORTING\\mergeTwoSortedArray.cpp","group":"local","local":true}
