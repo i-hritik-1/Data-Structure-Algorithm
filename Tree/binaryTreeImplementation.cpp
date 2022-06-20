@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Node for storing data and also pointer for left and right child.
 class Node{
     public:
     int data;
@@ -13,6 +14,9 @@ class Node{
     }
 };
 
+
+//Recurssive inorder traversal --> LEFT -> ROOT -> RIGHT
+
 void inorder(Node *root)
 {
     if(root != NULL)
@@ -23,6 +27,7 @@ void inorder(Node *root)
     }
 }
 
+//Recurssive preorder traversal --> ROOT -> LEFT -> RIGHT
 void preorder(Node *root)
 {
     if(root != NULL)
@@ -32,6 +37,8 @@ void preorder(Node *root)
         inorder(root->right);
     }
 }
+
+//Recurssive postorder traversal --> LEFT -> RIGHT -> ROOT
 
 void postorder(Node *root)
 {
