@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution {
 public:
-    int longestCommonSum(vector<bool> arr1, vector<bool> arr2, int n) {
+    int longestCommonSum(vector<int> arr1, vector<int> arr2, int n) {
         
             // code here 
     }
@@ -13,7 +13,8 @@ int main()
 {
     int n;
     cin>>n;
-    vector<bool> arr1(n), arr2(n);
+
+    vector<int> arr1(n), arr2(n);
     for(int i=0; i<n; i++){
         cin>>arr1[i];
     }
@@ -24,8 +25,5 @@ int main()
     Solution obj;
     cout<<obj.longestCommonSum(arr1,arr2,n)<<endl;
 
-
-
-    
     return 0;
 }
