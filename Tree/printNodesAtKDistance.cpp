@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+// TC --> O(N)
+// SC --> O(H)
 
 class Node{
     public:
@@ -15,23 +17,22 @@ class Node{
 
 
 
-vector<int> printEle(Node *root, int k)
+void printEle(Node *root, int k)
 {
     vector<int> ans;
     if(root == NULL)
     {
-        return ans;
+        return;
     }
     
     if(k==0)
     {
-        ans.push_back(root->data);
+        cout<<root->data<<" ";
     }
     else{
         printEle(root->left,k-1);
         printEle(root->right,k-1);
     }
-    return ans;
 }
 
 int main()
@@ -44,12 +45,6 @@ int main()
     root->right->right->left = new Node(80);
     int k;
     cin>>k;
-    vector<int> res = printEle(root,k);
-
-    for(auto it:res)
-    {
-        cout<<it<<" ";
-    }
-    
+    printEle(root,k);
     return 0;
 }
