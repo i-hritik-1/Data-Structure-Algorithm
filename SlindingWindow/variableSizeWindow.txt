@@ -1,0 +1,23 @@
+General Format
+
+while(j<size)
+{
+    -> Some Calculation 
+    if(condition < k)
+    {
+        j++;
+    }
+    else if(condition == k)
+    {
+        ans <- From Calculation
+        j++;
+    }
+    else if(condition > k)
+    {
+        while(condition > k)
+        {
+            remove Calculation for i
+            i++;
+        }
+    }
+}
