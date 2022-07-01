@@ -14,12 +14,13 @@ public:
        int i = 0, j = 0;
        int len = arr.size();
        int maxi = INT_MIN;
-
+       int count = 0;
        while(i+1 < len)
        {
         if(arr[i] == arr[i+1])
         {
             i++;
+            count++;
             continue;
         }
         j = i  + 1;
@@ -29,6 +30,11 @@ public:
         }
         maxi = max(maxi,j-i+1);
         i = j;
+       }
+
+       if(count == len-1)
+       {
+        return 1;
        }
 
        return maxi;
