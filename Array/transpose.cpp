@@ -1,11 +1,8 @@
 // #include<bits/stdc++.h>
 // using namespace std;
-// #define M 101
-// #define fastio ios_base::sync_with_stdio(false); cin.tie(NULL);
 
 // int main()
 // {
-//     fastio
 //     int n;
 //     cin>>n;
 //     int a[n][n];
