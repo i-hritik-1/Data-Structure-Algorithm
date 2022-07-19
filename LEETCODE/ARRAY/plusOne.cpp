@@ -4,29 +4,37 @@ using namespace std;
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
-        int n = digits.size();
-        if(digits[n-1] == 9 ){
-            int i = n-1;
-            for( i=n-1; i>=0 && digits[i] == 9; i--){}
-            if(i<0){
-                digits[i+1] = 1;
-                for(int j = i+2; j<n; j++){
-                 digits[j] = 0;
-                } 
-                digits.push_back(0);
-                return digits;
-            }else{
-                digits[i] = 1+digits[i];
-                for(int j = i+1; j<n; j++){
-                  digits[j] = 0;
-                }
-                return digits;
-            }
-    }
-      digits[n-1] = 1+ digits[n-1];
-      return digits;
+       int n = digits.size();
+       if(digits[n-1] != 9)
+       {
+        digits[n-1] = digits[n-1] + 1;
+        return digits;
+       }
+
+       int carry = 0;
+       digits[n-1] = digits[n-1] +1;
+       carry = digits[n-1]/10;
+       digits[n-1] = digits[n-1]%10;
+       for(int i = n-2; i >= 0; i--)
+       {
+        if(carry == 1)
+        {
+            digits[i] = digits[i] + 1;
+            carry = digits[i]/10;
+            digits[i] = digits[i]%10;
+        }
+       }
+
+       if(carry == 1)
+       {
+        digits.insert(digits.begin(),1);
+       }
+       return digits;
     }
 };
+
+// 9 9 9
+// 9 + 1 = 10 -> carry = 1, 
 
 int main()
 {
