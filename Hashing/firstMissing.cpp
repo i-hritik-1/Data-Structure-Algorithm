@@ -6,7 +6,6 @@
 //         {
 //             s.insert(it);
 //         }
-        
 //         int smallest = 1;
         
 //         for(auto it : s)

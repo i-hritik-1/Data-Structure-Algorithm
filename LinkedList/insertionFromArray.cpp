@@ -1,14 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution
-{
-    public:
-    Node* rotate(Node* head, int k)
-    {
+// class Solution
+// {
+//     public:
+//     Node* rotate(Node* head, int k)
+//     {
 
-    }
-};
+//     }
+// };
 
 class Node{
     public:
@@ -24,16 +24,16 @@ class Node{
 int main()
 {
     
-    int arr[] = {1,2,3,4};
-
-    Node *head = new Node(arr[0]);
+    Node *head = new Node(0);
     Node *temp = head;
-    for(int i=1; i<4; i++)
+    for(int i=0; i<=5; i++)
     {
-        head->next = new Node(arr[i]);
+        int temp;
+        cin>>temp;
+        head->next = new Node(temp);
         head = head->next;
     }
-
+    temp = temp->next;
     while(temp != NULL)
     {
         cout<<temp->data<<" ";

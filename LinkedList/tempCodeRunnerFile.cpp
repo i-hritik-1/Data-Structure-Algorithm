@@ -1,1 +1,8 @@
- // head->next = NULL;
+class Solution
+// {
+//     public:
+//     Node* rotate(Node* head, int k)
+//     {
+
+//     }
+// };
