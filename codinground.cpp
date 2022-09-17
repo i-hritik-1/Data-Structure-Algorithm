@@ -1,3 +1,5 @@
+// Minimum cost in prefix array. cost = sum of all the distinct number of element in the subarray of permutation.
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -11,7 +13,7 @@ int main()
         cin>>arr[i];
     }
 
-    
+
     sort(arr,arr+n);
     set<int> s;
 
