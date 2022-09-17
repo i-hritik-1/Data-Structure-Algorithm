@@ -21,23 +21,23 @@
 // //     return 0;
 // // }
 
-// class Queue{
-//     public:
-//     int front = 0;
-//     int rear = 0;
-//     int size;
-// };
+class Queue{
+    public:
+    int front = 0;
+    int rear = 0;
+    int size;
+};
 
+int main()
+{
+    
+    return 0;
+}
+
+// #include<iostream>
+// using namespace std;
 // int main()
 // {
     
-//     return 0;
+
 // }
-
-#include<iostream>
-using namespace std;
-int main()
-{
-    cout<<"Hritik Raushan"<<endl;
-
-}
