@@ -51,18 +51,33 @@ void postorder(Node *root)
 }
 
 
+Node* buildTree()
+{
+    int data;
+    cin>>data;
+
+    if(data == -1)
+    {
+        return NULL;
+    }
+
+    Node* newNode = new Node(data);
+
+    cout<<"Enter data to the left child "<<data;
+    newNode->left = buildTree();
+    cout<<"Enter data for the right child"<<data;
+    newNode -> right = buildTree();
+
+    return newNode;
+}
 
 int main()
 {
-    Node *root = new Node(10);
-    root->left = new Node(20);
-    root->right = new Node(30);
-    root->right->left = new Node(40);
-    root->right->right = new Node(50);
-    inorder(root);
-    cout<<endl;
+    Node* root = NULL;
+
+    root = buildTree();
+
     preorder(root);
-    cout<<endl;
-    postorder(root);    
+
     return 0;
 }
