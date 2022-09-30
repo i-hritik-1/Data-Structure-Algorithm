@@ -16,20 +16,38 @@ class Solution{
     public:
     int partition(int arr[], int low, int high)
     {
-        int pivot = arr[high];
-        int i = low - 1;
-        for(int j = low;  j<high; j++)
+        int pivot = arr[low];
+        int count = 0;
+        for(int j = low + 1;  j <= high; j++)
         {
-            if(arr[j] < pivot)
+            if(arr[j] <= pivot)
             {
-                i++;
-                swap(arr[i],arr[j]);
+                count++;
             }
         }
-        swap(arr[i+1],arr[high]);
 
-        return i+1;
+        int pivotIdx = low + count;
+        swap(arr[pivotIdx],arr[low]);
 
+        
+        int i = low, j = high;
+        while(i < pivotIdx && j > pivotIdx)
+        {
+            while(arr[i] < pivot)
+            {
+                i++;
+            }
+
+            while(arr[j] > pivot)
+            {
+                j--;
+            }
+            if(i<pivotIdx && j > pivotIdx)
+            {
+                swap(arr[i++],arr[j--]);
+            }
+        }
+        return pivotIdx;
     }
 
 };

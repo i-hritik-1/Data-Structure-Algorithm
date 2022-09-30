@@ -1,0 +1,1 @@
+{"name":"Local: truck_tour","url":"e:\\Data Structure\\Data-Structure-Algorithm\\LAB MST\\truck_tour.cpp","tests":[{"id":1664345414771,"input":"3\n1 5\n10 3\n3 4","output":"Journey is started from. 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Data Structure\\Data-Structure-Algorithm\\LAB MST\\truck_tour.cpp","group":"local","local":true}

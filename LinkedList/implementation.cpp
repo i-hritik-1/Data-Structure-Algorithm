@@ -14,7 +14,6 @@ class Node{
     ~Node()
     {
         int value = this->data;
-    // Memory Free
         if(this->Next != NULL)
         {
             delete Next;
