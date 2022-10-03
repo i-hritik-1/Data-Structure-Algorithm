@@ -20,7 +20,5 @@ int main()
     string s;
     cin>>s;
     cout<<checkPalinrome(s,0,s.size()-1);
-
-    
     return 0;
 }
