@@ -31,6 +31,20 @@ class Graph{
         }
     }
 
+};
+
+int main()
+{
+    Graph<int> g;
+
+    g.addEdge(0,1,0);
+    g.addEdge(1,2,1);
+    g.printGraph();
+    
+    return 0;
+}
+
+
     /*                                          Weighted Graph                                           */
 
     // map<T,list<pair<T,T>>> adjlist;
@@ -57,16 +71,3 @@ class Graph{
     //         cout<<endl;
     //     }
     // }
-
-};
-
-int main()
-{
-    Graph<int> g;
-
-    g.addEdge(0,1,0);
-    g.addEdge(1,2,1);
-    g.printGraph();
-    
-    return 0;
-}
